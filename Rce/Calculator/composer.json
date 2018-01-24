@@ -1,0 +1,21 @@
+{
+    "name": "rce/module-rce-calculator",
+    "description": "",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "dima.khomenko@gmail.com",
+            "name": "rce"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Rce\\Calculator\\": ""
+        }
+    }
+}
